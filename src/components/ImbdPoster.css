@@ -1,0 +1,36 @@
+.poster {
+  min-width: 200px;
+  max-width: 12vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgb(81, 77, 95);
+  cursor: pointer;
+  margin-top: 1.5em;
+  margin-left: 3em;
+  border-radius: 1em;
+}
+
+.poster:hover {
+  background: rgb(209, 209, 209);
+}
+.poster:hover h3 {
+  color: black;
+}
+.poster img {
+  height: 300px;
+  border-radius: 1em;
+}
+
+.poster h3 {
+  margin: 0.5em 0;
+  font-size: 1em;
+  width: 60%;
+  color: rgb(230, 228, 228);
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+}
+abbr {
+  text-decoration: none;
+}

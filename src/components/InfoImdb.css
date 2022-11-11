@@ -1,0 +1,66 @@
+.modal {
+  position: fixed;
+  z-index: 999;
+  top: 0;
+  left: 0;
+  width: 100%;
+  min-height: 100vh;
+  align-items: center;
+  justify-content: center;
+  display: none;
+}
+
+.modal.is-open {
+  display: flex;
+}
+.modal-container {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: rgba(0, 0, 0, 0.63);
+  height: 80vh;
+  width: 70%;
+}
+.modal-container .dos {
+  width: 100%;
+}
+.modal-container button {
+  z-index: 999;
+  background: rgb(249, 249, 249);
+  border-style: none;
+  color: rgb(0, 0, 0);
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+}
+.modal-container button:hover {
+  background: rgba(0, 0, 0, 0.297);
+  color: rgb(255, 255, 255);
+}
+.modal-container img {
+  max-width: 30em;
+  max-height: 90%;
+  margin-left: 1.5em;
+  border-radius: 1em;
+}
+.description-container {
+  display: flex;
+  flex-direction: column;
+  margin-left: 3em;
+}
+.description-container h3 {
+  text-align: left;
+  color: white;
+  margin-top: 0.5em;
+}
+.plot {
+  max-height: 20vh;
+  overflow: auto;
+}
+
+.modal-close {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+}
